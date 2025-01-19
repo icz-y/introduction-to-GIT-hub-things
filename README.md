@@ -22,3 +22,6 @@ This project is a minimalist grid layout designed to be visually appealing. it g
 1. Clone this repository to your local machine:
    ```bash
    git clone https://github.com/<icz-y>/introduction-to-GIT-hub-things>.git
+#### link to live site
+   ```bash
+http://127.0.0.1:5500/assasin.html
