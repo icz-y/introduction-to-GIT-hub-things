@@ -21,4 +21,4 @@ This project is a minimalist grid layout designed to be visually appealing. it g
 ### Steps to Run Locally:
 1. Clone this repository to your local machine:
    ```bash
-   git clone https://github.com/<your-username>/<your-repo-name>.git
+   git clone https://github.com/<icz-y>/introduction-to-GIT-hub-things>.git
