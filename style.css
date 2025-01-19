@@ -21,3 +21,20 @@ c.header .container {
   margin-bottom: 60px;
   text-transform: uppercase; 
 }
+
+.header p {
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 8px;
+  margin-bottom: 40px;
+  margin-top: 0;
+  text-transform: uppercase; 
+}
+
+.gallery {
+  display: grid;
+  gap: 30px; /* Bigger gaps for bold separation */
+  padding: 40px;
+  grid-template-columns: repeat(3, 1fr); /* Force 3 equal columns */
+  grid-auto-rows: 200px; /* Base size for rows */
+}
