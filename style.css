@@ -7,29 +7,41 @@ body {
   line-height: 1.6;
 }
 
-c.header .container {
-  position: relative;
-  top: 200px;
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
 }
 
-.header h1 {
-  color: #fff;
-  position: center;
-  line-height: 100px; 
-  font-size: 80px;
-  margin-top: 100;
-  margin-bottom: 60px;
-  text-transform: uppercase; 
+header .logo h1 {
+  font-size: 2rem;
+  margin: 0;
 }
 
-.header p {
-  color: #fff;
-  font-weight: 500;
-  letter-spacing: 8px;
-  margin-bottom: 40px;
-  margin-top: 0;
-  text-transform: uppercase; 
+header nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
+
+header nav ul li {
+  margin-left: 20px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.1rem;
+}
+
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+
 
 .gallery {
   display: grid;
@@ -38,7 +50,8 @@ c.header .container {
   grid-template-columns: repeat(3, 1fr); /* Force 3 equal columns */
   grid-auto-rows: 200px; /* Base size for rows */
 }
-gallery-item {
+
+.gallery-item {
   border-radius: 10px;
   overflow: hidden;
   transition: transform 0.3s, box-shadow 0.3s;
@@ -70,7 +83,64 @@ gallery-item {
 .gallery-item.tall {
   grid-row: span 2;
 }
+.contact-form {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(255, 65, 108, 0.3);
+}
 
+.contact-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #ff416c;
+  text-transform: uppercase;
+}
+
+.contact-form label {
+  display: block;
+  margin: 15px 0 5px;
+  font-size: 1.1rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #444444;
+  border-radius: 5px;
+  background-color: #222222;
+  color: #ffffff;
+  font-size: 1rem;
+  resize: none;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: #ff416c;
+}
+
+.contact-form button {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ff416c;
+  color: #ffffff;
+  font-size: 1.2rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+  background-color: #e93e6d;
+}
 footer {
   text-align: center;
   padding: 15px;
