@@ -1,12 +1,22 @@
-# my favourite things - by zinzi njau
+#Author
+zinzi njau~
 
-An immersive, dynamic, and responsive edgy-style image gallery built with HTML and CSS. The gallery features a sleek dark theme and hover effects that showcase images in an aesthetic, puzzle-like layout. fun for visuals and interactive pieces
+# my favourite things 
+
+An immersive, dynamic, and responsive edgy-style image gallery built with HTML and CSS. 
+The gallery features a sleek dark theme and hover effects that showcase images in an aesthetic, puzzle-like layout. 
+fun for visuals and interactive pieces
 
 ---
 
 ## Project Description
 
-This project is a minimalist grid layout designed to be visually appealing. it gives a breif overview of the interests of the author, as well as some extra information on each of the interests.
+This project is a minimalist grid layout designed to be visually appealing. 
+it gives a breif overview my interests, at this current point in time.
+it has characters from various movies: like scar, deadpool, and more
+it has my favourite foods : chicken, noodles,
+it contains adventure and promise for the future: the great barrier reef, paragliding\
+...and ~diamonds. cause i like those too.  (there's a link to a store if you want to get them for me)
 
 ---
 
