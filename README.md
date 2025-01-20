@@ -12,10 +12,10 @@ fun for visuals and interactive pieces
 ## Project Description
 
 This project is a minimalist grid layout designed to be visually appealing.<br> 
-it gives a breif overview my interests, at this current point in time.
-it has characters from various movies: like scar, deadpool, and more
-it has my favourite foods : chicken, noodles,
-it contains adventure and promise for the future: the great barrier reef, paragliding\
+it gives a breif overview my interests, at this current point in time.<br>
+it has characters from various movies: like scar, deadpool, and more<br>
+it has my favourite foods : chicken, noodles,<br>
+it contains adventure and promise for the future: the great barrier reef, paragliding<br>
 ....and ~diamonds. cause i like those too.  (there's a link to a store if you want to get them for me)
 
 ---
